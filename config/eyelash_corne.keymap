@@ -70,7 +70,7 @@
 &kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T                                     &mmv MOVE_UP                     &kp Y        &kp U             &kp I      &kp O    &kp P      &kp BSPC
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G                     &mmv MOVE_LEFT  &to 4           &mmv MOVE_RIGHT  &kp H        &kp J             &kp K      &kp L    &kp MINUS  &kp ENTER
 &kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B        &kp SPACE                    &mmv MOVE_DOWN                   &kp N        &kp M             &kp COMMA  &kp DOT  &kp FSLH   &kp ESC
-                              &kp LEFT_ALT  &mo 1  &lt 3 SPACE                                                                &lt 3 ENTER  &lt 2 INT_HENKAN  &kp RALT
+                              &kp LEFT_ALT  &mo 1  &lt 3 SPACE                                                                &lt 3 ENTER  &lt 2 Convert  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -106,7 +106,7 @@
 &kp F1  &kp F2  &kp F3     &kp F4     &kp F5     &kp F6                                &msc SCRL_UP                     &kp F7        &kp F8            &kp F9        &kp F10       &kp F11          &kp F12
 &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans                &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &trans        &mkp LCLK         &mkp MCLK     &mkp RCLK     &kp PRINTSCREEN  &kp BACKSPACE
 &trans  &trans  &trans     &trans     &trans     &trans  &kp C_MUTE                    &msc SCRL_DOWN                   &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                           &trans     &trans     &trans                                                                 &trans        &kp INT_MUHENKAN  &trans
+                           &trans     &trans     &trans                                                                 &trans        &kp NonConvert  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
