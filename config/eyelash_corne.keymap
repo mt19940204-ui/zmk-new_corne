@@ -1,3 +1,28 @@
+// OS設定を日本語キーボードのまま使用するための変換定義
+#define JP_DQUOTE       AT                // "
+#define JP_AMPERSAND    CARET             // &
+#define JP_QUOTE        AMPERSAND         // '
+#define JP_EQUAL        UNDER             // =
+#define JP_CARET        EQUAL             // ^
+#define JP_YEN          0x89              // ¥
+#define JP_PLUS         COLON             // +
+#define JP_TILDE        PLUS              // ~
+#define JP_PIPE         LS(0x89)          // |
+#define JP_AT           LEFT_BRACKET      // @
+#define JP_COLON        SINGLE_QUOTE      // :
+#define JP_ASTERISK     DOUBLE_QUOTES     // *
+#define JP_BACKQUOTE    LEFT_BRACE        // `
+#define JP_UNDERSCORE   LS(0x87)          // _
+#define JP_LBRACKET     RIGHT_BRACKET     // [
+#define JP_RBRACKET     BACKSLASH         // ]
+#define JP_LPAREN       ASTERISK          // (
+#define JP_RPAREN       LEFT_PARENTHESIS  // )
+#define JP_LBRACE       RIGHT_BRACE       // {
+#define JP_RBRACE       PIPE              // }
+#define JP_KANA         LANGUAGE_1        // かな
+#define JP_EISU         LANGUAGE_2        // 英数
+#define JP_HANZEN       GRAVE             // 半角/全角
+
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
 
@@ -70,7 +95,7 @@
 &kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T                                     &mmv MOVE_UP                     &kp Y        &kp U             &kp I      &kp O    &kp P      &kp BSPC
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G                     &mmv MOVE_LEFT  &to 4           &mmv MOVE_RIGHT  &kp H        &kp J             &kp K      &kp L    &kp MINUS  &kp ENTER
 &kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B        &kp SPACE                    &mmv MOVE_DOWN                   &kp N        &kp M             &kp COMMA  &kp DOT  &kp FSLH   &kp ESC
-                              &kp LEFT_ALT  &mo 1  &lt 3 SPACE                                                                &lt 3 ENTER  &lt 2 Convert  &kp RALT
+                              &kp LEFT_ALT  &mo 1  &lt 3 SPACE                                                                &lt 3 ENTER  &lt 2 JP_HANZEN  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -106,7 +131,7 @@
 &kp F1  &kp F2  &kp F3     &kp F4     &kp F5     &kp F6                                &msc SCRL_UP                     &kp F7        &kp F8            &kp F9        &kp F10       &kp F11          &kp F12
 &trans  &trans  &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans                &msc SCRL_LEFT  &mkp LCLK       &msc SCRL_RIGHT  &trans        &mkp LCLK         &mkp MCLK     &mkp RCLK     &kp PRINTSCREEN  &kp BACKSPACE
 &trans  &trans  &trans     &trans     &trans     &trans  &kp C_MUTE                    &msc SCRL_DOWN                   &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2  &bt BT_SEL 3  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                           &trans     &trans     &trans                                                                 &trans        &kp NonConvert  &trans
+                           &trans     &trans     &trans                                                                 &trans        &kp JP_HANZEN  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
