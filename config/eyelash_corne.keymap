@@ -97,7 +97,7 @@
         input_: input_ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(0x87) >;
+            bindings = <&unicode U+005F >;
             label = "INPUT_";
         };
     };
