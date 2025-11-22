@@ -97,11 +97,7 @@
         input_: input_ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <
-                if-mod SHIFT
-                    &kp LS(0x87)
-                    else 
-                    &kp LS(0x89)>;
+            bindings = <&kp LS(0x87) >;
             label = "INPUT_";
         };
     };
