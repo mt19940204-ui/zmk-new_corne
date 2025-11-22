@@ -81,13 +81,13 @@
         compatible = "zmk,combos";
 
         pass {
-            bindings = <&pass>;
+            bindings = <&para>;
             key-positions = <42 43 44>;
         };
     };
 
     macros {
-        pass: pass {
+        para: pass {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp N2 &kp N4 &kp LS(M) &kp A &kp S &kp A &kp T &kp O &kp N0 &kp N0 &kp N0 &kp N6 &kp QMARK>;
