@@ -557,7 +557,7 @@ rect.held, rect.combo.held {
 <path d="M286,212 l-43,-7" class="combo"/>
 <path d="M286,212 l44,9" class="combo"/>
 <rect rx="6" ry="6" x="272" y="199" width="28" height="26" class="combo"/>
-<text x="286" y="212" class="combo tap">&amp;para</text>
+<text x="286" y="212" class="combo tap"><tspan style="font-size: 60%">&amp;new_macro</tspan></text>
 </g>
 </g>
 </g>
@@ -818,7 +818,7 @@ rect.held, rect.combo.held {
 <path d="M286,212 l-43,-7" class="combo"/>
 <path d="M286,212 l44,9" class="combo"/>
 <rect rx="6" ry="6" x="272" y="199" width="28" height="26" class="combo"/>
-<text x="286" y="212" class="combo tap">&amp;para</text>
+<text x="286" y="212" class="combo tap"><tspan style="font-size: 60%">&amp;new_macro</tspan></text>
 </g>
 </g>
 </g>
@@ -1086,7 +1086,7 @@ rect.held, rect.combo.held {
 <path d="M286,212 l-43,-7" class="combo"/>
 <path d="M286,212 l44,9" class="combo"/>
 <rect rx="6" ry="6" x="272" y="199" width="28" height="26" class="combo"/>
-<text x="286" y="212" class="combo tap">&amp;para</text>
+<text x="286" y="212" class="combo tap"><tspan style="font-size: 60%">&amp;new_macro</tspan></text>
 </g>
 </g>
 </g>
@@ -1342,7 +1342,7 @@ rect.held, rect.combo.held {
 <path d="M286,212 l-43,-7" class="combo"/>
 <path d="M286,212 l44,9" class="combo"/>
 <rect rx="6" ry="6" x="272" y="199" width="28" height="26" class="combo"/>
-<text x="286" y="212" class="combo tap">&amp;para</text>
+<text x="286" y="212" class="combo tap"><tspan style="font-size: 60%">&amp;new_macro</tspan></text>
 </g>
 </g>
 </g>
@@ -1597,7 +1597,7 @@ rect.held, rect.combo.held {
 <path d="M286,212 l-43,-7" class="combo"/>
 <path d="M286,212 l44,9" class="combo"/>
 <rect rx="6" ry="6" x="272" y="199" width="28" height="26" class="combo"/>
-<text x="286" y="212" class="combo tap">&amp;para</text>
+<text x="286" y="212" class="combo tap"><tspan style="font-size: 60%">&amp;new_macro</tspan></text>
 </g>
 </g>
 </g>

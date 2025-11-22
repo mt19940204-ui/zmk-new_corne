@@ -247,4 +247,4 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [42, 43, 44]
-  k: '&para'
+  k: '&new_macro'
