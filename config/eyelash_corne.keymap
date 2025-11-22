@@ -97,7 +97,7 @@
         input_: input_ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>;
+            bindings = <&kp JP_UNDERSCORE>;
             label = "INPUT_";
         };
     };
