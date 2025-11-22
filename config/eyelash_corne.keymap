@@ -80,18 +80,18 @@
     combos {
         compatible = "zmk,combos";
 
-        pass {
-            bindings = <&para>;
+        Combo1 {
+            bindings = <&new_macro>;
             key-positions = <42 43 44>;
         };
     };
 
     macros {
-        para: pass {
+        new_macro: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp S &kp N2 &kp N4 &kp LS(M) &kp A &kp S &kp A &kp T &kp O &kp N0 &kp N0 &kp N0 &kp N6 &kp QMARK>;
-            label = "PASS";
+            bindings = <&none &kp S &kp N2 &kp N4 &kp LS(M) &kp A &kp S &kp A &kp T &kp O &kp N0 &kp N0 &kp N0 &kp N6 &kp QMARK &kp RET>;
+            label = "NEW_MACRO";
         };
     };
 
